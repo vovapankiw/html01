@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>First website</title>
+    </head>
+    <body>
+        <p>
+            <a href="https://programmingmentor.com/"><i><b>Programming</b></i></a>
+            <img src="images/relaxing-cat.jpg" alt="relaxing cat">
+        </p>
+        <ul>
+            <li>item1</li>
+            <li>item2</li>
+        </ul>
+        <ol start="10" reversed type="I">
+            <li>item1</li>
+            <li>item2</li>
+        </ol>
+        <table border="1">
+            <tr>
+                <th>item1</th>
+                <th>item2</th>
+                <th>item3</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+            <th>
+                <td callspan="3">item1</td>
+            </th>
+        </table>
+        
+        <section>
+            <h2>Form</h2>
+            <fieldset>
+            <form method="POST" action="https://formspree.io/vovapankiw@gmail.com">
+                <label for="client-name">Client name:</label>
+                    <input type="text" name="client-name" placeholder="your name" id="client-name">
+                 <br>
+                <label>Client email:
+                    <input type="email" name="email"  placeholder="email">
+                </label>
+                <br>
+                <label>Password:
+                        <input type="password" name="password"
+                            placeholder="Password">
+                    </label> 
+                    <br>
+                    <label>Car plate number:
+                        <input type="text" name="car-number"
+                            placeholder="Car plate number" required
+                            pattern="[A-Z]{2}[0-9]{4}[A-Z]{2}"
+                            title="AA1234BB">
+                    </label>  
+                    <br>
+                    <label>Gender</label>
+                    <label><input type="radio" name="gender" value="male">Male</label>
+                    <label><input type="radio" name="gender" value="female">Female</label>
+                    <label><input type="radio" name="gender" value="other">Other</label>
+                    <br>
+                    <input type="submit">
+                    <input type="reset">
+                </fieldset>
+            </form>
+        </section>
+        
+    </body>
+</html>
